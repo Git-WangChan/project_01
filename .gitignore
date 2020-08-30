@@ -1,0 +1,14 @@
+#忽略所有的 .a 文件
+*a
+
+#跟踪所有的 lia.a，即便前面忽略了 .a 文件
+!lia.a
+
+#只忽略当前目录下的TODO文件，不忽略其他目录下的TODO文件
+/TODO
+
+#忽略任何目录下名为 build 的文件夹
+build/
+
+#忽略doc/notes/txt，但不忽略doc/server/arch.txt
+doc/*.txt
